@@ -1,0 +1,202 @@
+Package keyword
+Identifier: main
+Import keyword
+Left parenthesis: (
+String literal: "fmt"
+Right parenthesis
+Function keyword
+Identifier: add
+Left parenthesis: (
+Identifier: a
+Comma
+Identifier: b
+Identifier: float64
+Right parenthesis
+Identifier: float64
+Left curly brace
+Return keyword
+Identifier: a
+Plus operator
+Identifier: b
+Right curly brace
+Function keyword
+Identifier: subtract
+Left parenthesis: (
+Identifier: a
+Comma
+Identifier: b
+Identifier: float64
+Right parenthesis
+Identifier: float64
+Left curly brace
+Return keyword
+Identifier: a
+Minus operator
+Identifier: b
+Right curly brace
+Function keyword
+Identifier: multiply
+Left parenthesis: (
+Identifier: a
+Comma
+Identifier: b
+Identifier: float64
+Right parenthesis
+Identifier: float64
+Left curly brace
+Return keyword
+Identifier: a
+Multiplication operator
+Identifier: b
+Right curly brace
+Function keyword
+Identifier: divide
+Left parenthesis: (
+Identifier: a
+Comma
+Identifier: b
+Identifier: float64
+Right parenthesis
+Left parenthesis: (
+Identifier: float64
+Comma
+Identifier: error
+Right parenthesis
+Left curly brace
+If keyword
+Identifier: b
+Equal operator
+Integer: 0
+Left curly brace
+Return keyword
+Integer: 0
+Comma
+Identifier: fmt
+Full stop
+Identifier: Errorf
+Left parenthesis: (
+String literal: "cannot divide by zero"
+Right parenthesis
+Right curly brace
+Return keyword
+Identifier: a
+Division operator
+Identifier: b
+Comma
+Identifier: nil
+Right curly brace
+Function keyword
+Identifier: main
+Left parenthesis: (
+Right parenthesis
+Left curly brace
+Identifier: num1
+Short declaration operator
+Primitive Data Type: 10.0
+Identifier: num2
+Short declaration operator
+Primitive Data Type: 5.0
+Identifier: Addition
+Identifier: resultAdd
+Short declaration operator
+Identifier: add
+Left parenthesis: (
+Identifier: num1
+Comma
+Identifier: num2
+Right parenthesis
+Identifier: fmt
+Full stop
+Identifier: Printf
+Left parenthesis: (
+String literal: "%v + %v = %v\n"
+Comma
+Identifier: num1
+Comma
+Identifier: num2
+Comma
+Identifier: resultAdd
+Right parenthesis
+Identifier: Subtraction
+Identifier: resultSub
+Short declaration operator
+Identifier: subtract
+Left parenthesis: (
+Identifier: num1
+Comma
+Identifier: num2
+Right parenthesis
+Identifier: fmt
+Full stop
+Identifier: Printf
+Left parenthesis: (
+String literal: "%v - %v = %v\n"
+Comma
+Identifier: num1
+Comma
+Identifier: num2
+Comma
+Identifier: resultSub
+Right parenthesis
+Identifier: Multiplication
+Identifier: resultMul
+Short declaration operator
+Identifier: multiply
+Left parenthesis: (
+Identifier: num1
+Comma
+Identifier: num2
+Right parenthesis
+Identifier: fmt
+Full stop
+Identifier: Printf
+Left parenthesis: (
+String literal: "%v * %v = %v\n"
+Comma
+Identifier: num1
+Comma
+Identifier: num2
+Comma
+Identifier: resultMul
+Right parenthesis
+Identifier: Division
+Identifier: resultDiv
+Comma
+Identifier: err
+Short declaration operator
+Identifier: divide
+Left parenthesis: (
+Identifier: num1
+Comma
+Identifier: num2
+Right parenthesis
+If keyword
+Identifier: err
+Not equal operator
+Identifier: nil
+Left curly brace
+Identifier: fmt
+Full stop
+Identifier: Println
+Left parenthesis: (
+String literal: "Error:"
+Comma
+Identifier: err
+Right parenthesis
+Right curly brace
+Else keyword
+Left curly brace
+Identifier: fmt
+Full stop
+Identifier: Printf
+Left parenthesis: (
+String literal: "%v / %v = %v\n"
+Comma
+Identifier: num1
+Comma
+Identifier: num2
+Comma
+Identifier: resultDiv
+Right parenthesis
+Right curly brace
+Right curly brace
